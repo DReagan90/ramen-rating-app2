@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Rater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ramen Rater</h1>
+    </header>
+    <div id="Ramen-menu"> 
+<img src="img Ramen/naruto.jpg" alt="naruto">
+<img src="img Ramen/gyukotsu.jpg" alt="gyukotsu">
+<img src="img Ramen/nirvana.jpg" alt="nirvana">
+<img src="img Ramen/shoyu.jpg" alt="shoyu">
+<img src="img Ramen/kojiro.jpg" alt="kojiro">
+
+    </div>
+    <div id="Ramen-detail">
+         <img class="detail-image" id="detail-image" src="images/shoyu.jpg" alt="Insert Name Here"> 
+        <h2 class="detail-name" id="detail-name"></h2>
+        <h3 class="detail-restaurant" id="detail-restaurant"></h3>
+    </div>
+    
+    <h2>Rating:</h2>
+    <p id="Rating-display">
+        10/10
+    </p>
+
+    <h3>Comment:</h3>
+    <p id="Comment-display">
+        The best one ever
+    </p>
+
+    <h4>Add New Ramen</h4>
+
+    <form id="new-ramen-form">
+        <input type="text" id="new-name" placeholder="Ramen Name" required>
+        <input type="text" id="new-restaurant" placeholder="Restaurant" required>
+        <input type="number" id="new-rating" min="1" max="10" placeholder="Rating (1-10)" required>
+        <input type="text" id="new-comment" placeholder="Comment" required>
+        <input type="text" id="new-image" placeholder="Image URL" required>
+        <button type="submit">Create</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
+    
